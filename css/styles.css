@@ -1,7 +1,29 @@
-p{
-
+html, body {
+  margin: auto;
+  padding: auto;
+  overflow-x: hidden;
 }
 
+h1,h3,h4 {
+font-family: 'Redressed', cursive;
+}
+
+h2{
+  font-family: 'Redressed', cursive;
+  font-size: 2.5rem !important;
+}
+
+h5{
+font-family: 'Redressed', cursive;
+font-size: 2rem !important;
+}
+
+p {
+  font-family: 'Raleway', cursive;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 
 /* Font Family */
 
@@ -127,4 +149,33 @@ p{
 /* Height + Width */
 .carousel-item{
     height: 53rem;
+}
+
+/* =============== Images ================*/
+
+/* 1st row second pic */
+
+.imght{
+  height: 59rem;
+  width: auto;
+}
+
+/* 2nd row second pic */
+
+.imght1{
+  height: 24.39rem;
+  width: auto;
+}
+
+/* 2nd row 3rd pic */
+
+.imght3{
+  height: 53.64rem;
+  width: auto;
+}
+
+/* Footer Section */
+
+.pfooter{
+  color: white;
 }
