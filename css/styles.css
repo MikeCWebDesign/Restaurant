@@ -25,6 +25,18 @@ p {
   font-size: 1.2rem;
 }
 
+/* Padding Styles */
+
+.booking-pad{
+  padding: 7% 15%;
+}
+
+/* Margin Styles */
+
+.my-6{
+  padding: 7% 0 7%;
+}
+
 /* Font Family */
 
 .fntfam1{
@@ -39,8 +51,16 @@ p {
   font-size: 1.2rem;
 }
 
+.fntfam3{
+  font-family: 'Raleway', cursive;
+  font-weight: bold;
+  font-size: 2.5rem;
+    text-align: center;
+}
+
 .fntcolwhite{
   color: white !important;
+
 }
 
 .fntcolblk{
@@ -178,4 +198,82 @@ p {
 
 .pfooter{
   color: white;
+}
+
+/* Mobile Version */
+
+@media (max-width:1028px) {
+
+html, body, section{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.carousel-item{
+  height: 20rem;
+}
+
+.h-100{
+  height:20rem!important;
+}
+
+.padtbrem2{
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.container-fluid{
+  margin: auto !important;
+  padding: 0 0 !important;
+}
+
+/* Navigation Bar */
+
+
+/* Images */
+
+
+#Images{
+  margin: auto !important;
+  padding: 1rem 1rem !important;
+  height: 100% !important;
+}
+
+#Images1{
+  margin: 0 !important;
+  padding: 0 1rem !important;
+  height: 830px !important;
+}
+
+#Images2{
+  margin: auto !important;
+  padding: 0rem 1rem !important;
+  height: 100% !important;
+}
+
+#img2{
+  height: 550px !important;
+  margin: auto !important;
+  padding-bottom: 1rem;
+
+}
+
+#img3{
+  height: 15% !important;
+  margin: auto !important;
+  padding: auto !important;
+
+}
+
+#img4{
+  height: 20% !important;
+  margin: auto !important;
+  padding: 1rem 0 0 !important;
+}
+
+
+.mb-lg-0{
+  margin: 0 !important;
+}
+
 }

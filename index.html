@@ -23,6 +23,10 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 
+  <!-- Bootstrap Style  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
@@ -35,7 +39,7 @@
   <!-- Navigation Bar 2 -->
   <section>
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light" aria-label="Third navbar example">
+    <nav id="navbar1" class="fixed-top navbar navbar-expand-sm navbar-light bg-light" aria-label="Third navbar example">
 
       <div class="container-fluid">
 
@@ -51,22 +55,22 @@
 
         <div class="collapse navbar-collapse" id="navbarsExample03">
 
-          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <ul id="navlink" class="navbar-nav me-auto mb-2 mb-sm-0">
 
             <li class="nav-item mrglr">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a id="navfont" class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
 
             <li class="nav-item mrglr">
-              <a class="nav-link" href="#">Menu</a>
+              <a id="navfont" class="nav-link" href="#">Menu</a>
             </li>
 
             <li class="nav-item mrglr">
-              <a class="nav-link" href="#">Order Online</a>
+              <a id="navfont" class="nav-link" href="#Booking">Order Online</a>
             </li>
 
             <li class="nav-item mrglr">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a id="navfont" class="nav-link" href="#Contact">Contact Us</a>
             </li>
 
           </ul>
@@ -125,13 +129,13 @@
 
     <div class="row">
 
-      <div class="col-3">
+      <div class="col-lg-3 col-sm-1">
 
       </div>
 
-      <div class="col-6 padtbrem2">
+      <div class="col-lg-6 col-sm-12 padtbrem2">
 
-        <h1 class="txtcntr padtxtbot">About Us</h1>
+        <h1 class="txtcntr padtxtbot">OUR RESTAURANT BULGOGI</h1>
 
         <p class="txtjst fntfam2">
           Bulgogi is one of the most well-known dishes in Korean cuisine, second only to Kimchi.
@@ -158,8 +162,27 @@
 
       </div>
 
-      <div class="col-3">
+      <div class="col-lg-3 col-sm-1">
 
+      </div>
+
+    </div>
+
+    <!-- Menu Section -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4">
+          <button type="btn btn-lg btn-outline-primary" name="Menu1"> <a href="">Lunch Menu</a></button>
+        </div>
+
+        <div class="col-4">
+          <button type="btn btn-lg btn-outline-primary" name="Menu1"> <a href="">Lunch Menu</a></button>
+        </div>
+
+        <div class="col-4">
+          <button type="btn btn-lg btn-outline-primary" name="Menu1"> <a href="">Lunch Menu</a></button>
+        </div>
       </div>
 
     </div>
@@ -168,7 +191,7 @@
 
   <!-- <hr class="mx-sm-4" style="border: 2px solid #000;"> -->
 
-  <section>
+  <section id="Images-Section">
 
     <!-- Gallery -->
 
@@ -177,39 +200,42 @@
       <div class="row">
 
         <!-- First Column 1st Pic -->
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <div id="Images1" class="col-lg-4 col-md-12 col-sm-12 mb-4 mb-lg-0">
 
-          <img src="https://images.unsplash.com/photo-1470256699805-a29e1b58598a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+          <img id="img1" src="https://images.unsplash.com/photo-1470256699805-a29e1b58598a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="w-100 shadow-1-strong rounded mb-4" alt="" />
 
           <!-- 1st Col 2nd Pic -->
-          <img src="https://images.unsplash.com/photo-1567533708067-239a2371890b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fGtvcmVhbiUyMGZvb2R8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+          <img id="img2" src="https://images.unsplash.com/photo-1567533708067-239a2371890b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fGtvcmVhbiUyMGZvb2R8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60" class="w-100 shadow-1-strong rounded mb-4"
+            alt="" />
 
         </div>
 
         <!-- 1st Col 2nd Pic -->
-        <div class="col-lg-4 mb-4 mb-lg-0">
+        <div id="Images" class="col-lg-4 col-sm-12 mb-4 mb-lg-0">
 
           <div class="mb-1">
-            <img class="imght w-100 shadow-1-strong rounded mb-2" src="https://images.unsplash.com/photo-1611519684855-7e9e5ddea991?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="" />
+            <img id="img3" class="imght w-100 shadow-1-strong rounded mb-2" src="https://images.unsplash.com/photo-1611519684855-7e9e5ddea991?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              alt="" />
           </div>
 
           <!-- 2nd Col 2nd Pic -->
           <div class="">
-            <img class="imght1 w-100 shadow-1-strong rounded mb-2" src="https://images.unsplash.com/photo-1564836235910-c3055ca0f912?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="" />
+            <img id="img4" class="imght1 w-100 shadow-1-strong rounded mb-2" src="https://images.unsplash.com/photo-1564836235910-c3055ca0f912?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              alt="" />
           </div>
 
         </div>
 
         <!-- 3rd Column 1st Pic -->
 
-        <div class="col-lg-4 mb-4 mb-lg-0">
+        <div id="Images2" class="col-lg-4 mb-4 mb-lg-0">
 
           <div class="">
             <img class="w-100 shadow-1-strong rounded mb-4" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="" />
           </div>
 
           <div class="">
-            <img class="w-100 shadow-1-strong rounded mb-4" src="https://images.unsplash.com/photo-1579576792017-054fe0e86b79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="" />
+            <img id="img2" class="w-100 shadow-1-strong rounded mb-4" src="https://images.unsplash.com/photo-1579576792017-054fe0e86b79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="" />
           </div>
 
         </div>
@@ -222,25 +248,28 @@
 
   <!-- <hr class="mx-sm-4" style="border: 2px dotted #000;"> -->
 
-<section>
+  <section id="Booking">
 
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
+    <div class="container-fluid">
+      <div class="row bg-dark">
+        <div class="col-4">
 
-      </div>
+        </div>
 
-      <div class="col-4">
+        <div class="col-sm-4 my-6">
+          <p class="fntfam3 fntcolwhite">BOOK A TABLE</p>
 
-      </div>
+          <iframe class="iframe_wide" src="https://www.opentable.co.uk/widget/reservation/canvas?rid=161931&amp;domain=couk&amp;type=standard&amp;theme=wide&amp;lang=en-GB&amp;overlay=false&amp;r3abvariant=false"
+            style="width: 100%; height: 10rem; border: none;" scrolling="no"></iframe>
+        </div>
 
-      <div class="col-4">
+        <div class="col-4">
 
+        </div>
       </div>
     </div>
-  </div>
 
-</section>
+  </section>
 
 
   <!-- Address + Opening Hours  -->
@@ -323,7 +352,7 @@
 
   </section>
 
-<!-- ======================== Footer Section ======================== -->
+  <!-- ======================== Footer Section ======================== -->
 
   <footer class="text-muted py-3 bg-dark">
 
@@ -339,6 +368,11 @@
 
   </footer>
 
+  <!-- Script Section -->
+  <!-- Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+  <script type='text/javascript' src='//www.opentable.co.uk/widget/reservation/loader?rid=142203&rid=161931&type=multi&theme=wide&iframe=true&domain=couk&lang=en-GB&newtab=false&ot_source=Restaurant%20website'></script>
 </body>
 
 </html>
