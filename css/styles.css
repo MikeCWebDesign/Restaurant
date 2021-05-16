@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* HTML ELEMENTS */
 html, body {
   margin: auto;
   padding: auto;
   overflow-x: hidden;
 }
 
-h1,h3,h4 {
-font-family: 'Redressed', cursive;
+h1, h3, h4 {
+  font-family: 'Redressed', cursive;
 }
 
-h2{
+h2 {
   font-family: 'Redressed', cursive;
   font-size: 2.5rem !important;
 }
 
-h5{
-font-family: 'Redressed', cursive;
-font-size: 2rem !important;
+h5 {
+  font-family: 'Redressed', cursive;
+  font-size: 2rem !important;
 }
 
 p {
@@ -26,254 +29,318 @@ p {
 }
 
 /* Padding Styles */
-
-.booking-pad{
+.booking-pad {
   padding: 7% 15%;
 }
 
 /* Margin Styles */
+.my-6 {
+  padding: 7% 0 5%;
+}
 
-.my-6{
-  padding: 7% 0 7%;
+.mr-6 {
+  padding-left: 2%;
 }
 
 /* Font Family */
-
-.fntfam1{
+.fntfam1 {
   font-family: 'Redressed', cursive;
   font-size: 2rem !important;
 }
 
-.fntfam2{
+.fntfam2 {
   font-family: 'Raleway', cursive;
   color: black;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-.fntfam3{
+.fntfam3 {
   font-family: 'Raleway', cursive;
   font-weight: bold;
   font-size: 2.5rem;
-    text-align: center;
+  text-align: center;
 }
 
-.fntcolwhite{
+.fntcolwhite {
   color: white !important;
-
 }
 
-.fntcolblk{
+.fntcolblk {
   color: black !important;
 }
 
 /* Text Decoration */
-
-.txtundl{
+.txtundl {
   text-decoration: underline;
 }
 
-#nav{
+#nav {
   color: black !important;
   text-decoration: none;
   margin: auto 50px;
 }
 
-.cntr{
+.w-50 {
+  padding-left: 10%;
+}
+
+/* Navigation Font */
+
+.alertmrg{
+  margin-top: 3%;
+}
+
+.btnfont {
+  color: white;
+  font-family: 'Raleway', cursive;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cntr {
   text-align: center !important;
   color: black;
 }
 
-.navcont{
+.navcont {
   margin-left: 500px;
 }
 
-.wid1{
+.wid1 {
   width: 250px;
 }
 
-/* Margin Style  */
+/* Carousel Image */
+.imght1 {
+  height
+}
 
-.mrgright{
+/* Margin Style  */
+.mrgright {
   margin-right: 200px;
 }
 
-.mrglr{
+.mrglr {
   margin: auto 3rem;
 }
 
 /* Background */
-
-#bgcol{
-      position: relative;
-      top: 5px;
-      left: 0px;
-      width: 100%;
-      height: 100%;
-      background-color: pink;
+#bgcol {
+  position: relative;
+  top: 5px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: pink;
 }
 
-.bgcol1{
+.bgcol1 {
   height: 100%;
   width: 100%;
   background-color: black;
 }
 
-.txtleft{
+.txtleft {
   text-align: left;
 }
 
-.txtcntr{
+.txtright {
+  text-align: right;
+}
+
+.txtcntr {
   text-align: center;
 }
 
-.txtjst{
+.txtjst {
   text-align: justify;
 }
 
 /* Indicator Colour */
-.carousel-control-prev{
+.carousel-control-prev {
   color: blue;
 }
 
 /* Padding Style */
-
-.padlft{
+.padlft {
   margin-left: 60px;
 }
 
-.padtop{
+.padtop {
   padding-top: 5rem;
 }
 
-.padbot{
-  padding-bottom:60%
+.padbot {
+  padding-bottom: 60%
 }
 
-.padtxtbot{
+.padtxtbot {
   padding-bottom: 2rem;
 }
 
-.padtbrem{
+.padtbrem {
   padding: 6rem 0 6rem 0;
 }
 
-.padtbrem1{
-  padding: 4rem 0 0rem 0;
+.padtbrem1 {
+  padding: 2rem 1rem;
 }
 
-.padtbrem2{
+.padtbrem2 {
   padding: 3rem 0 3rem 0;
 }
 
 /* Height + Width */
-.carousel-item{
-    height: 53rem;
+.carousel-item {
+  height: 53rem;
 }
 
 /* =============== Images ================*/
-
 /* 1st row second pic */
-
-.imght{
+.imght {
   height: 59rem;
   width: auto;
 }
 
 /* 2nd row second pic */
-
-.imght1{
-  height: 24.39rem;
+.imght1 {
+  height: 24rem;
   width: auto;
 }
 
 /* 2nd row 3rd pic */
-
-.imght3{
+.imght3 {
   height: 53.64rem;
   width: auto;
 }
 
-/* Footer Section */
+/* Booking Section */
+.padhour {
+  padding: 5px 25px;
+  width: 100%;
+}
 
-.pfooter{
+.padhour1 {
+  padding: 7px 10px;
+  width: 100%;
+}
+
+.lblfont {
+  font-size: 1rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Footer Section */
+.pfooter {
   color: white;
 }
 
+.btn50 {
+  width: auto;
+  margin-left: 10%;
+  font-size: 4.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ================= Mobile Version ==================== */
 /* Mobile Version */
-
 @media (max-width:1028px) {
+  html, body, section {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
-html, body, section{
-  margin: 0 !important;
-  padding: 0 !important;
-}
+  .carousel-item {
+    height: 20rem;
+  }
 
-.carousel-item{
-  height: 20rem;
-}
+  .h-100 {
+    height: 20rem !important;
+  }
 
-.h-100{
-  height:20rem!important;
-}
+  .padtbrem2 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
 
-.padtbrem2{
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-}
+  .container-fluid {
+    margin: auto !important;
+    padding: 0 0 !important;
+  }
 
-.container-fluid{
-  margin: auto !important;
-  padding: 0 0 !important;
-}
+  /* Navigation Bar */
+  /* Images */
+  #Images {
+    margin: auto !important;
+    padding: 1rem 1rem !important;
+    height: 100% !important;
+  }
 
-/* Navigation Bar */
+  #Images1 {
+    margin: 0 !important;
+    padding: 0 1rem !important;
+    height: 830px !important;
+  }
 
+  #Images2 {
+    margin: auto !important;
+    padding: 0rem 1rem !important;
+    height: 100% !important;
+  }
 
-/* Images */
+  #img2 {
+    height: 550px !important;
+    margin: auto !important;
+    padding-bottom: 1rem;
+  }
 
+  #img3 {
+    height: 15% !important;
+    margin: auto !important;
+    padding: auto !important;
+  }
 
-#Images{
-  margin: auto !important;
-  padding: 1rem 1rem !important;
-  height: 100% !important;
-}
+  #img4 {
+    height: 20% !important;
+    margin: auto !important;
+    padding: 1rem 0 0 !important;
+  }
 
-#Images1{
-  margin: 0 !important;
-  padding: 0 1rem !important;
-  height: 830px !important;
-}
+  #Menu1, #Menu2, #Menu3 {
+    text-align: center !important;
+    padding: 2rem 0;
+  }
 
-#Images2{
-  margin: auto !important;
-  padding: 0rem 1rem !important;
-  height: 100% !important;
-}
+  .mb-lg-0 {
+    margin: 0 !important;
+  }
 
-#img2{
-  height: 550px !important;
-  margin: auto !important;
-  padding-bottom: 1rem;
+  /* Font Family */
+  h1, h2, h3, h4, h5, p, .fntfam2, .pfooter, .lblfont {
+    font-size: 1rem !important;
+  }
 
-}
+  #Booking-Table {
+    margin: 0 3% !important;
+  }
 
-#img3{
-  height: 15% !important;
-  margin: auto !important;
-  padding: auto !important;
+  #btn {
+    font-size: 1rem;
+  }
 
-}
+  .padhour1 {
+    padding-left: 6%;
+  }
 
-#img4{
-  height: 20% !important;
-  margin: auto !important;
-  padding: 1rem 0 0 !important;
-}
+  .lblfont {
+    color: none !important;
+    opacity: 0;
+  }
 
-
-.mb-lg-0{
-  margin: 0 !important;
-}
-
+  .btn50 {
+    margin-left: 10px !important;
+  }
 }
