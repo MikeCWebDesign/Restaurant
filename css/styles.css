@@ -235,7 +235,7 @@ p {
 
 .btn50 {
   width: auto;
-  margin-left: 10%;
+  margin-left: 45%;
   font-size: 4.5rem;
   font-family: 'Roboto', sans-serif;
 }
@@ -281,6 +281,10 @@ p {
 
   #img4 {
     height: 195px;
+  }
+
+  .btn50{
+    margin-left: 38%;
   }
 }
 
@@ -404,7 +408,7 @@ p {
   }
 
   .btn50 {
-    margin-left: 20%;
+    margin-left: 25%;
   }
 
   #form-row {
@@ -492,10 +496,6 @@ p {
     display: none;
   }
 
-  #btn {
-    margin-left: 100px;
-  }
-
   #form-row {
     padding-bottom: 12px;
   }
@@ -503,6 +503,12 @@ p {
   .mr-6 {
     padding-left: 30px;
   }
+
+  #btn {
+    margin-left: 8%;
+    font-size: 1rem;
+  }
+
 }
 
 /* ================= iPhone X Screen ======================== */
@@ -583,7 +589,8 @@ p {
   }
 
   #btn {
-    margin-left: 100px;
+    margin-left: 20%;
+    font-size: 0.8rem;
   }
 
   #form-row {
