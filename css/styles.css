@@ -86,8 +86,8 @@ p {
 }
 
 /* Navigation Font */
-#navlink {
-  margin-left: 500px;
+#navfont {
+  text-align: center;
 }
 
 .btnfont {
@@ -184,34 +184,40 @@ p {
 }
 
 .padtbrem2 {
-  padding: 3rem 0 3rem 0;
+  padding: 5% 0;
 }
 
 /* Height + Width */
+
 .carousel-item {
   height: 58rem;
 }
 
 /* =============== Images ================*/
+
 /* 1st row second pic */
+
 .imght {
-  height: 59rem;
+  height: 58.3rem;
   width: auto;
 }
 
 /* 2nd row second pic */
+
 .imght1 {
   height: 397px;
   width: auto;
 }
 
 /* 2nd row 3rd pic */
+
 .imght3 {
   height: 53.64rem;
   width: auto;
 }
 
 /* Booking Section */
+
 .padhour {
   padding: 5px 25px;
   width: 100%;
@@ -229,6 +235,7 @@ p {
 }
 
 /* Footer Section */
+
 .pfooter {
   color: white;
 }
@@ -248,10 +255,20 @@ p {
   color: black;
 }
 
+#btn1 {
+  text-align: center;
+  padding: 2%;
+}
+
 /* ===============================================================================
 ===============================================================================
 =============================================================================== */
+
 @media (max-width: 1400px) {
+
+  p {
+    font-size: 1rem;
+  }
 
   #navbar0 {
     width: 100%;
@@ -262,16 +279,53 @@ p {
   }
 
   #img3 {
-    height: 500px;
+    height: 632px;
   }
 
   .imght1 {
     height: 320.9px;
   }
+
+  #btn1 {
+    padding: 2rem 12px 1rem;
+    text-align: center;
+  }
+
+  .btn-lg {
+    font-size: 1rem;
+  }
+
+  .padhour {
+    padding: 7px 10px;
+  }
+
+}
+
+/* Macbook 11 inch */
+
+@media (max-width: 1366px) {
+  #img4 {
+    height: 19.3rem;
+  }
+}
+
+/* ================= XL Version ==================== */
+
+@media (max-width: 1200px) {
+
+  #img3 {
+    height: 35rem;
+  }
+
+  #img4 {
+    height: 16.3rem;
+  }
 }
 
 /* ================= iPad Version ==================== */
+
 @media (max-width: 1024px) {
+
   .carousel-item {
     height: 700px;
   }
@@ -290,9 +344,9 @@ p {
     width: 124px;
   }
 
-  #navlink {
+  /* #navlink {
     margin-left: 40%;
-  }
+  } */
 
   #img3 {
     height: 500px;
